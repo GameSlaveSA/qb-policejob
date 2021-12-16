@@ -1,5 +1,5 @@
 Config = {}
-
+--GameSlaveSA 06/12/2021
 Config.Objects = {
     ["cone"] = {model = `prop_roadcone02a`, freeze = false},
     ["barier"] = {model = `prop_barrier_work06a`, freeze = true},
@@ -10,43 +10,49 @@ Config.Objects = {
 
 Config.Locations = {
    ["duty"] = {
-       [1] = vector3(440.085, -974.924, 30.689),
-       [2] = vector3(-449.811, 6012.909, 31.815),
+       [1] = vector3(461.12, -977.79, 30.69), --Mission Row Rec-Room
+       [2] = vector3(-449.811, 6012.909, 31.815),--Paleto BC Sheriff Reception
+       [3] = vector3(1851.99, 3690.87, 34.29),--Sandy BC Sheriff Reception
    },
    ["vehicle"] = {
-       [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-       [2] = vector4(471.13, -1024.05, 28.17, 274.5),
-       [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
+       [1] = vector4(446.64, -981.39, 25.7, 97.79), --Mission Row Basement
+       [2] = vector4(475.59, -1022.58, 28.08, 285.28), --Mission Row Cells Entrance
+       [3] = vector4(-456.99, 6000.61, 31.34, 37.41), --Paleto BC Sherriff Back Parking
+       [4] = vector4(1868.24, 3697.21, 33.54, 208.83), --Sandy BC Sherriff Side Under Tree
    },
    ["stash"] = {
-       [1] = vector3(453.075, -980.124, 30.889),
+       [1] = vector3(444.27, -980.32, 30.69), --Mission Row inside Reception
    },
    ["impound"] = {
-       [1] = vector4(436.68, -1007.42, 27.32, 180.0),
-       [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
+       [1] = vector4(441.88, -1016.15, 28.68, 91.25), --Mission Row Side Entrance at Garages
+       [2] = vector4(-436.14, 5982.63, 31.34, 136.0), --Paleto BC Sheriff Side Inside Fence
+       [3] = vector4(1851.45, 3712.44, 33.19, 295.6), --Sandy BC Sheriff Behind Office
    },
    ["helicopter"] = {
-       [1] = vector4(449.168, -981.325, 43.691, 87.234),
-       [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
+       [1] = vector4(449.168, -981.325, 43.691, 87.234), --Mission Row ontop of roof
+       [2] = vector4(-475.43, 5988.353, 31.716, 31.34), --Paleto BC Sheriff Behind Offices
+       [3] = vector4(1770.31, 3239.78, 42.13, 14.51), --Sandy Shores Airfield
    },
    ["armory"] = {
-       [1] = vector3(462.23, -981.12, 30.68),
+       [1] = vector3(482.43, -995.27, 30.69), --Mission Row Armory
+       [2] = vector3(-438.05, 5988.87, 31.72), --Paleto BC Sheriff Armory
    },
    ["trash"] = {
        [1] = vector3(439.0907, -976.746, 30.776),
    },
    ["fingerprint"] = {
-       [1] = vector3(460.9667, -989.180, 24.92),
+       [1] = vector3(484.33, -987.9, 30.69), --Mission Row
    },
    ["evidence"] = {
-       [1] = vector3(442.1722, -996.067, 30.689),
-       [2] = vector3(451.7031, -973.232, 30.689),
-       [3] = vector3(455.1456, -985.462, 30.689),
+       [1] = vector3(472.86, -995.07, 26.27), -- Mission Row Evidence1
+       [2] = vector3(474.97, -995.18, 26.27), -- Mission Row Evidence2
+       [3] = vector3(-442.11, 5987.63, 31.72), --Paleto BC Sheriff Evidence1
    },
    ["stations"] = {
        [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
        [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
        [3] = {label = "Police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+       [4] = {label = "Police Station Sandy", coords = vector4(1857.25, 3679.91, 33.79, 33.9)}, --Added Sandy Police Station
    },
 }
 
